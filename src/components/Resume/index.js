@@ -16,11 +16,13 @@ export default function Resume({ income, expense, total }){
         title="Entradas"
         Icon={FaRegArrowAltCircleUp}
         value={income}
+        color={{color:'green'}}
       />
       <ResumeItem
         title="Saídas"
         Icon={FaRegArrowAltCircleDown}
         value={expense}
+        color={{color:'red'}}
       />
       <ResumeItem title="Total" Icon={FaDollarSign} value={total} />
 

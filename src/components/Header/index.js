@@ -7,7 +7,7 @@ export default function Header(){
     <>
      <C.Container>
       <C.Header>
-        <C.Title>Controle Financeiro</C.Title>
+        <C.Title>Controle Financeiro 💸</C.Title>
       </C.Header>
     </C.Container>
     </>

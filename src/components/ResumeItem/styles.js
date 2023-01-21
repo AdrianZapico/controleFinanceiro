@@ -48,3 +48,7 @@ export const Total = styled.span`
   font-size: 30px;
   font-weight: bold;
 `;
+
+export const TextColor = styled.p`
+   color: red;
+`

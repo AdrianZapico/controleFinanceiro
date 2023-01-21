@@ -2,7 +2,7 @@ import React from "react";
 import * as C from "./styles";
 
 
-export default function ResumeItem({ title, Icon, value }) {
+export default function ResumeItem({ title, Icon, value, color }) {
 
     return (
         <>
@@ -11,7 +11,7 @@ export default function ResumeItem({ title, Icon, value }) {
                     <C.HeaderTitle>{title}</C.HeaderTitle>
                     <Icon />
                 </C.Header>
-                <C.Total>{value}</C.Total>
+                <C.Total style={color}>{value}</C.Total>
             </C.Container>
 
         </>

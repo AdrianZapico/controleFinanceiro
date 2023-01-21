@@ -54,14 +54,15 @@ export default function Form({ handleAdd, transactionsList, setTransactionsList 
             name="group1"
             onChange={() => setExpense(!isExpense)}
           />
-          <C.Label htmlFor="rIncome">Entrada</C.Label>
+          <C.Label htmlFor="rIncome"  style={{color:'green'}}>Entrada</C.Label>
           <C.Input
             type="radio"
             id="rExpenses"
             name="group1"
             onChange={() => setExpense(!isExpense)}
+           
           />
-          <C.Label htmlFor="rExpenses">Saída</C.Label>
+          <C.Label htmlFor="rExpenses"  style={{color:'red'}}>Saída</C.Label>
         </C.RadioGroup>
         <C.Button onClick={handleSave}>ADICIONAR</C.Button>
       </C.Container>
